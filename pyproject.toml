@@ -3,7 +3,7 @@ name = "intelligent-doc-processing"
 version = "0.1.0"
 description = "Production-grade multi-agent document processing system"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "pydantic>=2.0",
     "pydantic-settings>=2.0",
@@ -35,7 +35,7 @@ build-backend = "hatchling.build"
 packages = ["src/idp"]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 line-length = 100
 src = ["src", "tests"]
 
@@ -60,7 +60,7 @@ ignore = [
 known-first-party = ["idp"]
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.12"
 strict = true
 warn_return_any = true
 warn_unused_ignores = true
