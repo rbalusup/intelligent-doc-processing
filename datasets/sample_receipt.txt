@@ -1,0 +1,16 @@
+COFFEE SHOP
+123 Main Street
+San Francisco, CA 94102
+
+Date: 01/20/2024
+Time: 10:30 AM
+
+Latte           $5.50
+Croissant       $3.75
+
+Subtotal:       $9.25
+Tax:            $0.74
+Total:          $9.99
+
+VISA ****1234
+Thank you!

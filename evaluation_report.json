@@ -1,0 +1,12 @@
+{
+  "total_tests": 5,
+  "passed_tests": 0,
+  "failed_tests": 5,
+  "pass_rate": 0.0,
+  "classification_accuracy": 1.0,
+  "extraction_f1": 0.0,
+  "average_latency_ms": 0.5780251987744123,
+  "started_at": "2026-02-12T07:15:33.300480",
+  "completed_at": "2026-02-12T07:15:33.303517",
+  "duration_seconds": 0.003037
+}

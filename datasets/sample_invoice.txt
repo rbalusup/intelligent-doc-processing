@@ -1,0 +1,25 @@
+INVOICE
+
+Invoice Number: INV-2024-001
+Date: January 15, 2024
+Due Date: February 15, 2024
+
+From:
+Acme Corporation
+123 Business St
+New York, NY 10001
+
+Bill To:
+Customer Inc
+456 Client Ave
+Los Angeles, CA 90001
+
+Items:
+1. Consulting Services - 10 hours @ $150/hr = $1,500.00
+2. Software License - 1 year @ $500/yr = $500.00
+
+Subtotal: $2,000.00
+Tax (8%): $160.00
+Total: $2,160.00
+
+Payment Terms: Net 30
