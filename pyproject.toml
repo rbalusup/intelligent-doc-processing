@@ -12,6 +12,9 @@ dependencies = [
     "typer>=0.12",
     "rich>=13.0",
     "tenacity>=8.0",
+    "langgraph>=0.2.0",
+    "langchain-aws>=0.2.0",
+    "langchain-core>=0.2.0",
 ]
 
 [project.optional-dependencies]

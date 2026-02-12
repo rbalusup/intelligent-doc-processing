@@ -36,6 +36,11 @@ class Settings(BaseSettings):
     bedrock_max_tokens: int = Field(default=4096, description="Max tokens for LLM responses")
     bedrock_temperature: float = Field(default=0.0, description="Temperature for LLM responses")
 
+    # Bedrock Knowledge Base & Agents
+    bedrock_kb_id: str | None = Field(default=None, description="Bedrock Knowledge Base ID")
+    bedrock_agent_id: str | None = Field(default=None, description="Bedrock Agent ID")
+    bedrock_agent_alias_id: str | None = Field(default=None, description="Bedrock Agent Alias ID")
+
     # Storage Configuration
     storage_backend: Literal["local", "s3", "memory"] = "local"
     storage_local_path: str = Field(default="./data", description="Local storage path")
